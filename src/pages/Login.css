@@ -1,0 +1,81 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Background image */
+  background-image: url("../assets/uth_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.login-box {
+  width: 360px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-logo {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #231742;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  box-sizing: border-box;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #008689;
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+.login-box button:hover {
+  background: #23a7a9;
+}
+
+.signup-link {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #0a4fa3;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
